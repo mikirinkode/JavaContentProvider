@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mikirinkode.javasqlite">
 
+    <permission android:name="com.mikirinkode.javasqlite.READ_DATABASE"
+        android:protectionLevel="normal"/>
+    <permission android:name="com.mikirinkode.javasqlite.WRITE_DATABASE"
+        android:protectionLevel="normal"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -25,6 +30,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:authorities="com.mikirinkode.javasqlite"
+            android:name=".provider.NoteProvider"
+            android:exported="true"
+            android:readPermission="com.mikirinkode.javasqlite.READ_DATABASE"
+            android:writePermission="com.mikirinkode.javasqlite.WRITE_DATABASE"/>
     </application>
 
 </manifest>
