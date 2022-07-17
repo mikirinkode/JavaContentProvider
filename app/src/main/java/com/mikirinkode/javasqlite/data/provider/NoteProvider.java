@@ -1,8 +1,8 @@
-package com.mikirinkode.javasqlite.provider;
+package com.mikirinkode.javasqlite.data.provider;
 
-import static com.mikirinkode.javasqlite.db.DatabaseContract.NoteColumns.CONTENT_URI;
-import static com.mikirinkode.javasqlite.db.DatabaseContract.TABLE_NAME;
-import static com.mikirinkode.javasqlite.db.DatabaseContract.AUTHORITY;
+import static com.mikirinkode.javasqlite.data.db.DatabaseContract.NoteColumns.CONTENT_URI;
+import static com.mikirinkode.javasqlite.data.db.DatabaseContract.TABLE_NAME;
+import static com.mikirinkode.javasqlite.data.db.DatabaseContract.AUTHORITY;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -12,7 +12,7 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import com.mikirinkode.javasqlite.db.NoteHelper;
+import com.mikirinkode.javasqlite.data.db.NoteHelper;
 
 public class NoteProvider extends ContentProvider {
 

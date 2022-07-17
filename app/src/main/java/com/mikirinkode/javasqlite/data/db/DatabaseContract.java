@@ -1,4 +1,4 @@
-package com.mikirinkode.javasqlite.db;
+package com.mikirinkode.javasqlite.data.db;
 
 import android.net.Uri;
 import android.provider.BaseColumns;

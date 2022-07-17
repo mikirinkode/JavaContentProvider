@@ -2,8 +2,8 @@ package com.mikirinkode.javasqlite.helper;
 
 import android.database.Cursor;
 
-import com.mikirinkode.javasqlite.db.DatabaseContract;
-import com.mikirinkode.javasqlite.entity.Note;
+import com.mikirinkode.javasqlite.data.db.DatabaseContract;
+import com.mikirinkode.javasqlite.data.entity.Note;
 
 import java.util.ArrayList;
 

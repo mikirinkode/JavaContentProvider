@@ -1,4 +1,4 @@
-package com.mikirinkode.javasqlite;
+package com.mikirinkode.javasqlite.ui;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.mikirinkode.javasqlite.entity.Note;
+import com.mikirinkode.javasqlite.R;
+import com.mikirinkode.javasqlite.data.entity.Note;
 
 import java.util.ArrayList;
 

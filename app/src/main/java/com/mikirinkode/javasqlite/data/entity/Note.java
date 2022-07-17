@@ -1,4 +1,4 @@
-package com.mikirinkode.javasqlite.entity;
+package com.mikirinkode.javasqlite.data.entity;
 
 import android.os.Parcel;
 import android.os.Parcelable;

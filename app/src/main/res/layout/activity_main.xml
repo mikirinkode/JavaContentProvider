@@ -5,17 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <ProgressBar
         android:id="@+id/progressbar"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:visibility="invisible"
-        app:layout_anchor="@id/rv_notes"
+        app:layout_anchor="@id/lv_note"
         app:layout_anchorGravity="center" />
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_notes"
+    <ListView
+        android:id="@+id/lv_note"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -27,7 +27,7 @@
         android:layout_margin="16dp"
         android:foregroundGravity="bottom"
         app:fabSize="normal"
-        app:layout_anchor="@id/rv_notes"
+        app:layout_anchor="@id/lv_note"
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@drawable/ic_add" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

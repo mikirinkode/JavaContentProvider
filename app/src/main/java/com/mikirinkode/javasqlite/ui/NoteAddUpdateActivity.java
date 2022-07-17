@@ -1,8 +1,8 @@
-package com.mikirinkode.javasqlite;
+package com.mikirinkode.javasqlite.ui;
 
-import static com.mikirinkode.javasqlite.db.DatabaseContract.NoteColumns.DATE;
-import static com.mikirinkode.javasqlite.db.DatabaseContract.NoteColumns.DESCRIPTION;
-import static com.mikirinkode.javasqlite.db.DatabaseContract.NoteColumns.TITLE;
+import static com.mikirinkode.javasqlite.data.db.DatabaseContract.NoteColumns.DATE;
+import static com.mikirinkode.javasqlite.data.db.DatabaseContract.NoteColumns.DESCRIPTION;
+import static com.mikirinkode.javasqlite.data.db.DatabaseContract.NoteColumns.TITLE;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,8 +18,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.mikirinkode.javasqlite.db.NoteHelper;
-import com.mikirinkode.javasqlite.entity.Note;
+import com.mikirinkode.javasqlite.R;
+import com.mikirinkode.javasqlite.data.db.NoteHelper;
+import com.mikirinkode.javasqlite.data.entity.Note;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

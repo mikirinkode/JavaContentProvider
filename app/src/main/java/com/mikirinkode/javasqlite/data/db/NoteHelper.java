@@ -1,7 +1,7 @@
-package com.mikirinkode.javasqlite.db;
+package com.mikirinkode.javasqlite.data.db;
 
 import static android.provider.BaseColumns._ID;
-import static com.mikirinkode.javasqlite.db.DatabaseContract.TABLE_NAME;
+import static com.mikirinkode.javasqlite.data.db.DatabaseContract.TABLE_NAME;
 
 import android.content.ContentValues;
 import android.content.Context;
